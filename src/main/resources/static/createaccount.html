@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Habit.io</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+    <div class="sign-in">
+        <h1 id="createaccounttittle">Please Create An Account</h1>
+        <form action="">
+            <!-- <div class="labelandinput">
+            <label for="">Name:</label>
+            <input type="text" placeholder="Please enter your name">
+            </div><br> -->
+            <div class="labelandinput">
+            <label for="">E-mail:</label>
+            <input type="email" placeholder="And your e-mail" id="createemail" name="createemail">
+            </div><br>
+            <div class="labelandinput">
+            <label for="">Password:</label>
+            <input type="text" placeholder="Generate a password" id="createpassword" name="createpassword">
+            </div><br>
+            <div class="labelandinput">
+            <label for="">Confirm Password:</label>
+            <input type="text" placeholder="Confirm your password" id="createconfirmpass" name="createconfirmpass">
+            </div><br><br>
+            <div class="button" id="cabutton">
+            <button onclick="myFunction()">Create Account</button><br>
+            </div>
+        </form>
+        <script>function myFunction() {
+                let accInfo = {
+                "email": `${document.getElementById('createemail').value}`,
+                "password": `${document.getElementById('createpassword').value}`
+                }
+
+                const options = {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(accInfo)
+                    }
+                    alert(JSON.stringify(accInfo))
+                if (document.getElementById('createpassword').value === document.getElementById('createconfirmpass').value) {
+                    fetch('http://localhost:8080/register', options)
+                    .then(function(res){ console.log(res) })
+                    .catch(function(res){ console.log(res) })
+                } else {
+                    alert('Passwords don\'t match');
+                }
+
+        }</script>
+    </div>
+
+    
+</body>
+</html>

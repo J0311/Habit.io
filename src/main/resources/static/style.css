@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap);
+
+body {
+    margin: 0;
+    background-color: #f0977d;
+    color:black;
+    padding-top: 100px;
+    font-family: Rajdhani, sans-serif;
+}
+
+#createaccounttittle {
+    margin-bottom: 50px;
+}
+
+#cabutton {
+    margin-bottom: 20px;
+}
+
+#descriptiontask {
+    height: 150px;
+}
+
+#descdiv label {
+    vertical-align: top;
+}
+
+#descdiv input::placeholder {
+    vertical-align: bottom;
+    
+}
+
+#lefthabittext {
+    justify-content: left;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#boardview {
+    width: 90%;
+}
+
+.sign-in {
+    width: 70%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    margin: auto;
+    background-color: white;
+}
+
+.sign-in label {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
+
+.sign-in input,textarea,select {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sign-in button {
+    width: 40%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    background-color: coral;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.sign-in a {
+    width: 40%;
+    font-size: x-large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in a:hover {
+    color: #f0977d;
+}
+
+.mainboard {
+    display: flex;
+    overflow-x: scroll;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+}
+
+.mainboard #boardview {
+    overflow-y: scroll;
+}
+ 
+
+.categorycolumn {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color:antiquewhite;
+    width: 200px;
+    /* height: 400px; */
+    margin-left: 20px;
+}
+
+.sign-in span {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.task {
+    border-style: solid;
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* height: 50px; */
+    background-color: white;
+    cursor: move;
+}
+
+.task h3 {
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 20px;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.task p {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px; 
+}
+
+.task button {
+    margin-bottom: 10px;
+}
