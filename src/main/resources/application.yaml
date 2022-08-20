@@ -1,0 +1,22 @@
+server:
+port: 8080 #//5432
+servlet:
+context-path: /myapp
+myapp:
+value: "Springing Into Action"
+spring:
+datasource:
+username: J0311
+password: BestPasswordEver
+url: jdbc:postgresql://javadb-0.cpz1wwb1y5uo.us-east-1.rds.amazonaws.com:5432/postgres
+driver-class-name: org.postgresql.Driver
+
+logging:
+level:
+org: Juggernauts
+hibernate:
+SQL: DEBUG
+type:
+descriptor:
+sql: Postgres
+BasicBinder: TRACE
