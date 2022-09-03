@@ -69,4 +69,3 @@ class ExceptionHandlerAdviceTest {
         exceptionHandlerAdvice.handle(ex, null, new Response());
     }
 }
-
