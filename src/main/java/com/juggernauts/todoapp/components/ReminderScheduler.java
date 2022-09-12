@@ -67,6 +67,7 @@
 //
 //        // delete all the non-repeatable outdated reminders
 //        reminderService.deleteReminders(deleteReminders);
+
 //        logger.info("deleted {} reminders", deleteReminders.size());
 //    }
 //}
