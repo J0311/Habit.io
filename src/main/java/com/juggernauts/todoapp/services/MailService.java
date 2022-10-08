@@ -12,6 +12,7 @@ import com.juggernauts.todoapp.configurations.MailgunPropertiesConfig;
  * A service for sending e-mails through the Mailgun API
  * @author Jacob
  */
+
 @Service
 public class MailService {
     //@Autowired private MailgunClient client;
