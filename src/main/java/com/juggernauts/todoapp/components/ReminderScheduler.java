@@ -17,6 +17,7 @@
 // * The component for scheduling reminder notifications
 // * @author Jacob
 // */
+
 //@Component
 //public class ReminderScheduler {
 //    private static final Logger logger = LogManager.getLogger(ReminderScheduler.class);
