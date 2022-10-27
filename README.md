@@ -1,5 +1,5 @@
 # Habit.io
-&lt;Group Project/Team Juggernauts>
+&lt;Group Project/Team Juggernauts> 
 
 | [Description](#description) | [Features](#features) | [Technology](#technology) |  
 
