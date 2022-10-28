@@ -52,7 +52,6 @@ public class Task {
 //    @JoinColumn(name="group_id", referencedColumnName = "group_id", columnDefinition = "INTEGER")
 //    private Group group;
 
-
     // used in a previous version
 //    @Column(name = "category_id", columnDefinition = "INTEGER")
 //    private int categoryId;
