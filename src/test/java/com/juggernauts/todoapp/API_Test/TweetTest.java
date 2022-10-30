@@ -27,5 +27,4 @@ class TweetTest {
         assertEquals("Successfully updated the status in Twitter.", tw.shareApp(status));
 
     }
-
 }
