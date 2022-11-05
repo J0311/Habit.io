@@ -12,6 +12,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
  * An interceptor for managing access to authenticated endpoints
  * @author Jacob
  */
+
 public class MustBeLoggedInInterceptor implements HandlerInterceptor {
     private static final String[] UNAUTHENTICATED_ENDPOINTS = {"/login", "/logout", "/register", "/error", "/verify"};
 
