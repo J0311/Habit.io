@@ -7,7 +7,6 @@ INSERT INTO business (business_id, business_name, description, email, phone_numb
     'true'
 );
 
-
 INSERT INTO customer (customer_id, first_name, last_name, description, email, phone_number, isPending) VALUES (
     1,
     'Mike',
