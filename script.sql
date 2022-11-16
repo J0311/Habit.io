@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS email_verification_tokens (
     PRIMARY KEY (token_id)
 );
 
+
 CREATE TABLE IF NOT EXISTS groups (
     group_id INTEGER GENERATED ALWAYS AS IDENTITY,
     name VARCHAR(32) NOT NULL,
