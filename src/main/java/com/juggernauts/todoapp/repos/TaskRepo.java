@@ -10,4 +10,6 @@ import javax.transaction.Transactional;
 @Repository
 @Transactional
 public interface TaskRepo extends JpaRepository<Task, Integer> {
+  
+  //
 }
