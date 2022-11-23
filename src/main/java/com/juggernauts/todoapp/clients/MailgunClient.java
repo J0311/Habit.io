@@ -12,6 +12,7 @@
 ///**
 // * The client and configurations for the Mailgun API service
 // * @author Jacob
+
 // */
 //@FeignClient(contextId="mailgunClient", name="mailService", url="http://meow.com", configuration=MailgunConfig.class)
 //public interface MailgunClient {
