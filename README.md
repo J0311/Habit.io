@@ -6,7 +6,7 @@
 ## Description
 
 The Habit.io To-Do-App presents a state of the art user interface which allows a user to set tasks, categories, and reminders for each task. 
-Habit.io exceeds industry standards with its ability to allow a user to seamlessly create new tasks while dragging and dropping them into the appropriate category of their liking. The days of forgetting stuff are over when you make it a habit to utilize Habit.io!
+Habit.io exceeds industry standards with its ability to allow a user to seamlessly create new tasks while dragging and dropping them into the appropriate category of their liking. The days of forgetting stuff are over when you make it a habit to utilize Habit.io!!!
 
 ## Features
 
