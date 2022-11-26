@@ -22,3 +22,4 @@ INSERT INTO contract (contract_id, client_name, isPending) VALUES (
     'Google',
     'true'
 );
+
