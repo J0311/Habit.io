@@ -4,6 +4,7 @@ package com.juggernauts.todoapp.models;
  * A POJO for taking a response from the Mailgun API
  * @author Jacob
  */
+
 public class MailgunResponse {
     private String id;
     private String message;
