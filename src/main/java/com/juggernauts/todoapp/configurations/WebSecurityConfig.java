@@ -11,6 +11,7 @@ import org.springframework.security.web.authentication.logout.HttpStatusReturnin
  * A configuration to set up web authentication system
  * @author Jacob
  */
+
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig {
