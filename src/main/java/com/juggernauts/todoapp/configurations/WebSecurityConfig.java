@@ -15,6 +15,7 @@ import org.springframework.security.web.authentication.logout.HttpStatusReturnin
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig {
+    
     /**
      * Sets the HTTP filters for authentication
      * @param http The security protocols
