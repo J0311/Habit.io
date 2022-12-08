@@ -12,6 +12,7 @@ import java.util.Date;
 import org.junit.jupiter.api.Test;
 
 class ReminderTest {
+    
     /**
      * Methods under test:
      *
@@ -28,6 +29,7 @@ class ReminderTest {
      *   <li>{@link Reminder#getTask()}
      * </ul>
      */
+    
     @Test
     void testConstructor() {
         Reminder actualReminder = new Reminder();
