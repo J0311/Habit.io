@@ -58,4 +58,5 @@ Key technologies and dependencies used in this project:
 - Insomnia
 - HTTP
 - Google Docs
+- Google Sheets
 - Discord
