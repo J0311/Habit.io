@@ -57,7 +57,7 @@ Key technologies and dependencies used in this project:
 - AWS Cloud
 - Insomnia
 - HTTP
-- Google Docs
+- Google-Docs
 - Google Sheets
 - Discord
 
