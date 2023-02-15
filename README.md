@@ -61,4 +61,3 @@ Key technologies and dependencies used in this project:
 - Google Sheets
 - Discord
 
-//
