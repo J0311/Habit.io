@@ -11,7 +11,7 @@ class TweetTest {
      * Method under test: default or parameterless constructor of {@link Tweet}
      * Twitter API
      */
-    //
+    
     @Test
     void testConstructor() {
         assertEquals("I stay on task with the ToDoApp from Habit.ual. Download the app today!", (new Tweet()).tw);
