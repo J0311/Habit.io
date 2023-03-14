@@ -21,7 +21,6 @@ Habit.io exceeds industry standards with its ability to allow a user to seamless
 
 ## Technology
 
-
 Key technologies and dependencies used in this project:
 - Java
 - Java Time API 
