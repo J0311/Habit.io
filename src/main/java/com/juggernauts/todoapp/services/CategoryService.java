@@ -15,8 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-// smooth
-
 @Service
 public class CategoryService {
     public User currentUser;
