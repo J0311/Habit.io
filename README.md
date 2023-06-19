@@ -35,6 +35,7 @@ Key technologies and dependencies used in this project:
 - Javax Servlet
 - Jackson Library
 - Spring Data
+- JUnit
 - Twitter API v2
 - Spring JPA with Hibernate
 - PostgreSQL
@@ -49,7 +50,6 @@ Key technologies and dependencies used in this project:
 - Code Pipeline
 - Elastic Beanstalk
 - MailGun API
-- JUnit
 - Mockito
 - Log4J
 - Tomcat Web Server
