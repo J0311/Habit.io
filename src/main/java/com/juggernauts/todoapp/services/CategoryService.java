@@ -33,6 +33,7 @@ public class CategoryService {
         }
     }
 
+    //    TODO: 
     public List<Category> getAllCategoriesForUser(User currentUser) {
         List<Category> allCategories = categoryRepo.findAll();
 
